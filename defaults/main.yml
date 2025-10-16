@@ -28,4 +28,5 @@ ufw_docker: false
 ufw_icmp_check_disable: false
 
 ufw_before_rules: []
+ufw_before_nat_rules: []
 ufw_after_rules: []
