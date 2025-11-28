@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.2.0](https://github.com/lotusnoir/ansible-apps_ufw/compare/3.1.0...3.2.0) - 2025-11-25
+
+### Commits
+
+- update main to include success flag at the end to be able to monitor last playbook run [`94bcd23`](https://github.com/lotusnoir/ansible-apps_ufw/commit/94bcd23daa8ba143ad37531204447e367fa964f4)
+
+## [3.1.0](https://github.com/lotusnoir/ansible-apps_ufw/compare/3.0.0...3.1.0) - 2025-11-17
+
+### Commits
+
+- update core and molecule [`e8e82fd`](https://github.com/lotusnoir/ansible-apps_ufw/commit/e8e82fd691ba42e4a1f39783eb2da2e7ac17a15f)
+- add oraclelinux10 support + lint and core fixes [`6d68af4`](https://github.com/lotusnoir/ansible-apps_ufw/commit/6d68af4c707fd88c1fec7d2f7ac519d12b5b54c6)
+
 ## [3.0.0](https://github.com/lotusnoir/ansible-apps_ufw/compare/2.1.0...3.0.0) - 2025-10-29
 
 ### Commits
