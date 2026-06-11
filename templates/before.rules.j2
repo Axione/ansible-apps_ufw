@@ -10,6 +10,20 @@
 #
 
 # Don't delete these required lines, otherwise there will be errors
+*nat
+:PREROUTING ACCEPT [0:0]
+:POSTROUTING ACCEPT [0:0]
+# End required lines
+
+## Custom ufw_before_nat_rules
+{% for value in ufw_before_nat_rules %}
+{{ value }}
+{% endfor %}
+
+# don't delete the 'COMMIT' line or these rules won't be processed
+COMMIT
+
+# Don't delete these required lines, otherwise there will be errors
 *filter
 :ufw-before-input - [0:0]
 :ufw-before-output - [0:0]
